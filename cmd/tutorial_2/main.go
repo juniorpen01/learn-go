@@ -10,7 +10,7 @@ func main() {
 	// Overengineered crap
 	var p = func(a ...any) {
 		if _, err := fmt.Println(a); err != nil {
-			log.Fatalf("Unable to print line: %+v", err)
+			log.Fatalf("unable to print line: %+v", err)
 		}
 	}
 
